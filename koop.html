@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>Tijd om te kopen!</title>
+    </head>
+    <body>
+        <div class="topnav">
+            <a class="active" href="dws.html">Home</a>
+            <input type="text" class="text">
+            <button class="zoek" onclick="alert('niet gevonden')" id="zoek">zoek</button>
+            <a>gemaakt voor: DWS</a>
+            <a href="https://example.com">contact</a>
+          </div>
+          <h1>Niet gevonden</h1>
+          <div class="yay">niet gevonden</div>
+          <h2 id="tef">0€</h2>
+          <button class="knop" onclick="alert('kan niet!')">Koop</button>
+    </body>
+</html>
+<style>
+.topnav {
+  background-color: #FF6F3C;
+  overflow: hidden;
+  width: 95%;
+  border: none;
+  height: 0px;
+  padding: 10px 0px 30px 10px;
+  border-radius: 4px;
+  background-image: none;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 3px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #FF6F3C;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+.text {
+  color: gray;
+  position: bottom;
+  padding-left: 10px;
+  text-decoration: none;
+  background-color: lightgray;
+  background-repeat: repeat-x;
+}
+
+div.yay {
+    background-color: #c9c9c9;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    left: 75px;
+    border-radius: 5px;
+}
+#tef {
+    position: absolute;
+    top: 110px;
+    left: 300px;
+}
+.knop {
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    background-color: yellow;
+    color: #FFF;
+    border: black solid 0.1px;
+    border-radius: 5px;
+}
+.knop button.hover {
+    background-color: #FFA07A;
+}
+</style>

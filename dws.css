@@ -1,0 +1,87 @@
+* {
+  font-family: monospace;
+  background-color: #faf7f5;
+  text-align: center;
+}
+
+.topnav {
+  background-color: #FF6F3C;
+  overflow: hidden;
+  width: 95%;
+  border: none;
+  height: 0px;
+  padding: 10px 0px 30px 10px;
+  border-radius: 4px;
+  background-image: none;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 3px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #FF6F3C;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+.text {
+  color: gray;
+  position: bottom;
+  padding-left: 10px;
+  text-decoration: none;
+  background-color: lightgray;
+  background-repeat: repeat-x;
+}
+.zoek {
+  background-color: #ddd;
+}
+div {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  padding: 50px;
+  margin: 20px;
+  background-color: #ea6F3C;
+}
+.div {
+  text-align: Left;
+}
+.computers {
+	position: absolute;
+	top: 103px;
+	left: 200px;
+}
+.move {
+	position: absolute;
+	top: 103px;
+	left: 400px;
+}
+.beweeg {
+	position: absolute;
+	top: 103px;
+	left: 600px;
+}
+#text {
+	text-align: left;
+}
+div.lange_lijn {
+  width: 90%;
+  height: 5%;
+  background-color: #FAAA00;
+  padding: 0%;
+  padding-top: 27px;
+}
+.button {
+  background-color: FAAA00;
+  color: black;
+}
